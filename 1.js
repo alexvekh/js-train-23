@@ -25,7 +25,7 @@ class Message extends ContentContainer {
     super();
     this.content = content;
   }
-  // Створюємо метод display, який виводить ${this.content} для всіх елементів масиву
+  // Створюємо метод display, який виводить ${this.content} для всіх елементів масиву // Мабуть неточність
   display() {
     console.log(`Повідомлення: ${this.content}`);
     for (const element of this.elements) element.display();
